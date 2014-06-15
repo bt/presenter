@@ -6,7 +6,7 @@ use Illuminate\Events\Dispatcher;
 use Illuminate\View\ViewFinderInterface;
 use Robbo\Presenter\PresentableInterface;
 use Illuminate\View\Engines\EngineResolver;
-use Illuminate\View\Environment as BaseEnvironment;
+use Illuminate\View\Factory as BaseEnvironment;
 
 class Environment extends BaseEnvironment {
 
